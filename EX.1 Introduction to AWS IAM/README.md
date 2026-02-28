@@ -1,6 +1,6 @@
 # Lab 1 - Introduction to AWS Identity and Access Management (IAM)
 ## Name : MAHALINGA JEYANTH V
-## Reg no :2122242200557
+## Reg no :212224220057
 ## Title
 Introduction to AWS Identity and Access Management (IAM)
 
