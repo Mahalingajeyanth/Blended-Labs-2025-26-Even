@@ -1,6 +1,5 @@
 # Lab 1 - Introduction to AWS Identity and Access Management (IAM)
-## Name : MAHALINGA JEYANTH V
-## Reg no :212224220057
+
 ## Title
 Introduction to AWS Identity and Access Management (IAM)
 
@@ -29,24 +28,31 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
 - Inspected managed and inline policies attached to groups  
 **Screenshot:**  
-<img width="1920" height="1200" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/5d405925-f169-4c45-8201-95554b785625" />
-
+(Add screenshot here)
 
 ### Task 2: Add Users to Groups
 - Added user-1 to the S3-Support group  
 - Added user-2 to the EC2-Support group  
 - Added user-3 to the EC2-Admin group  
 **Screenshot:**  
-<img width="1920" height="1200" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/300da460-a202-4d23-92ac-69482342e41a" />
-
+(Add screenshot here)
 
 ### Task 3: Test IAM User Permissions
 - Logged in using IAM sign-in URL  
 - Verified S3 access for user-1  
 - Verified EC2 read-only access for user-2  
-- Verified EC2 administrative access for user-3  
+- Verified EC2 administrative access for user-3
+
+  
 **Screenshot:**  
-<img width="1920" height="1200" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/e01e1d96-bc89-41ae-920b-022b2d035aeb" />
+
+
+<img width="1006" height="532" alt="image" src="https://github.com/user-attachments/assets/d0c06328-e915-419c-bbe6-20be1f1a62db" />
+
+
+
+<img width="987" height="454" alt="image" src="https://github.com/user-attachments/assets/562e3ad2-b4c9-47c4-8b13-4a3ab00cfe9b" />
+
 
 
 
@@ -70,6 +76,7 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:MAHALINGA JEYANTH V(212224220057)** 
+**Name:**MAHALINGA JEYANTH V (212224220057)
+
 **Course:** Introduction to Cloud Computing  
 
