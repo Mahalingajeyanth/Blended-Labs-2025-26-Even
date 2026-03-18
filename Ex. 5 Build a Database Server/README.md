@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: MAHALINGA JEYANTH V
+* **Register Number**: 212224220057
+* **Date of Submission**: 18/3/2026
 
 ---
 
@@ -82,13 +82,15 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.First, a security group named DB Security Group was created to allow the web server to connect to the database using port 3306 (MySQL).
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.A DB Subnet Group was created with subnets from two Availability Zones to allow the database to run in a Multi-AZ environment for high availability.
+
+3.A MySQL RDS instance named lab-db was created with the database name lab, username main, and password lab-password.
+
+4.The database was associated with the DB Security Group and the Lab VPC so that the web server can securely connect to the database.
+
+5.The web application running on the EC2 server was opened using its IP address, and the RDS endpoint, database name, username, and password were entered to interact with the database.
 
 ---
 
@@ -96,19 +98,21 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1919" height="1021" alt="Screenshot 2026-03-18 121938" src="https://github.com/user-attachments/assets/f85382a3-fff4-4cf2-8709-d44b615a9240" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="1014" alt="Screenshot 2026-03-18 122654" src="https://github.com/user-attachments/assets/b6182b55-cb7d-4c8c-9769-f50f265cdce0" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1919" height="643" alt="Screenshot 2026-03-18 124648" src="https://github.com/user-attachments/assets/be801ebc-a49e-4426-9f6c-433d40058516" />
 
 ---
 
